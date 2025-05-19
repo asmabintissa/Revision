@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    gap: 7pc;
+    float: right;
+    margin-right: 10pc;
+    
+}
+.navbar a{
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin-top: 2pc;
+}
+.navbarContainer{
+    height: 7pc;
+    width: 100%;
+    background-color: black;
+    padding: 16px 0;
+    
+}
+.navbarContainer a :hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
